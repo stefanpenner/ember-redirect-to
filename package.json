@@ -1,6 +1,6 @@
 {
   "name": "ember-redirect-to",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "The default blueprint for ember-cli addons.",
   "directories": {
     "doc": "doc",
@@ -11,7 +11,7 @@
     "start": "ember server",
     "test": "ember try:testall"
   },
-  "repository": "",
+  "repository": "https://github.com/stefanpenner/ember-redirect-to/",
   "engines": {
     "node": ">= 0.10.0"
   },
