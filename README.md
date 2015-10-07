@@ -3,7 +3,7 @@
 Ever confused by when to use `this.transitionTo` and `this.replaceWith` in the `redirect`while trying to preserve history?
 ...Me too...
 
-This addon introduces `this.redirectTo` which _appears_ to always do the what I want it to do....
+This addon makes `this.redirectTo` available in Routes, which _appears_ to always do the right things.
 
 ### Usage
 
