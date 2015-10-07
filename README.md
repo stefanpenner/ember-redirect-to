@@ -1,4 +1,4 @@
-# Ember-redirect-to
+# Ember-redirect-to [![Build Status](https://travis-ci.org/stefanpenner/ember-redirect-to.svg)](https://travis-ci.org/stefanpenner/ember-redirect-to)
 
 Ever confused by when to use `this.transitionTo` and `this.replaceWith` in the `redirect`while trying to preserve history?
 ...Me too...
