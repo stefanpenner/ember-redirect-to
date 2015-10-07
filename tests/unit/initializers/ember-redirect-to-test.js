@@ -16,7 +16,5 @@ module('Unit | Initializer | ember redirect to', {
 // Replace this with your real tests.
 test('it works', function(assert) {
   EmberRedirectToInitializer.initialize(application);
-
-  // you would normally confirm the results of the initializer here
-  assert.ok(true);
+  assert.ok(typeof Ember.Route.create().redirectTo === 'function');
 });
