@@ -1,6 +1,29 @@
 # Ember-redirect-to
 
-This README outlines the details of collaborating on this Ember addon.
+Ever confused by when to use `this.transitionTo` and `this.replaceWith` in the `redirect`while trying to preserve history?
+...Me too...
+
+This addon introduces `this.redirectTo` which _appears_ to always do the what I want it to do....
+
+### Usage
+
+```js
+ember install ember-redirect-to
+```
+
+In the route you wish to "alias" to another.
+
+```js
+// routes/index.js
+export default Route.extend({
+  redirect() {
+    // redirects / -> dashboard
+    // correctly chooses transitionTo or replaceWith to ensure the expected history
+    this.redirectTo('dashboard');
+  }
+})
+```
+
 
 ## Installation
 
