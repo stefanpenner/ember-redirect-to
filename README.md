@@ -1,5 +1,7 @@
 # Ember-redirect-to [![Build Status](https://travis-ci.org/stefanpenner/ember-redirect-to.svg)](https://travis-ci.org/stefanpenner/ember-redirect-to)
 
+**DEPRECATED**: Starting with Ember v2.10 this addon is no longer needed and you can just use `this.replaceWith` to get the correct behavior!
+
 Ever confused by when to use `this.transitionTo` and `this.replaceWith` in the `redirect`while trying to preserve history?
 ...Me too...
 
